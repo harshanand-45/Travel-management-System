@@ -1,0 +1,17 @@
+digraph DFD {
+    // External Entities
+    Customer [shape=box];
+    TravelManagementSystem [shape=circle];
+    // Processes
+    ProcessBooking [shape=circle label="Process Booking"];
+    ProcessBilling [shape=circle label="Process Billing"];
+    // Data Stores
+    CustomerDataStore [shape=rect label="Customer Data"];
+    BookingDataStore [shape=rect label="Booking Data"];
+    // Data Flow
+    Customer -> TravelManagementSystem [label="Booking Request"];
+    TravelManagementSystem -> ProcessBooking [label="Forward Request"];
+    ProcessBooking -> BookingDataStore [label="Store Booking"];
+    TravelManagementSystem -> ProcessBilling [label="Generate Bill"];
+    ProcessBilling -> Customer [label="Send Bill"];
+}

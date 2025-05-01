@@ -1,0 +1,35 @@
+
+Customer ID: 101
+Name: haesh
+Age: 50
+Mobile Number: 216212
+Address: msabjdascb
+Gender: m
+
+Customer ID: 101
+Name: harsh
+Age: 20
+Mobile Number: 123456789
+Address: manipur
+Gender: m
+
+Customer ID: 500
+Name: sri
+Age: 25
+Mobile Number: 231456
+Address: vcvgdcbhdb
+Gender: m
+
+Customer ID: 101
+Name: ritik
+Age: 20
+Mobile Number: 0
+Address: 
+Gender: 
+
+Customer ID: 123
+Name: asdfg
+Age: 20
+Mobile Number: 1234567890
+Address: asdfghh
+Gender: asg
